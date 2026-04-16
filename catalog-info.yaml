@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    github.com/project-slug: worldcoin/agentkit-shopify-demo
+  tags: ['code-lang:PLACEHOLDER-ADD-CODE-LANGUAGE']
+  description: Agent Skills for the Lift Off Shopify Demo
+  links:
+    - title: Linear
+      url: PLACEHOLDER-ADD-LINEAR-URL
+    - title: Documentation
+      url: PLACEHOLDER-ADD-DOCUMENTATION-URL
+    - title: Slack
+      url: https://tfh.slack.com/app_redirect?channel=proj-shopify-agents
+  name: agentkit-shopify-demo
+spec:
+  lifecycle: production
+  owner: team-world-id
+  type: resource
