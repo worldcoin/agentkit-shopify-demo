@@ -25,7 +25,7 @@ On your first run, Claude will walk you through one-time setup:
 2. **Generate an agent key** — Claude will generate an Ethereum key pair and save it to `.agent-key`. It will show you the wallet address.
 3. **Register in AgentBook** — Claude will ask you to run:
    ```sh
-   npx @worldcoin/agentkit-cli register <your-agent-address>
+   npx --registry https://registry.npmjs.org @worldcoin/agentkit-cli register <your-agent-address>
    ```
    This proves your agent is backed by a real human. You'll verify with your World ID. See the [AgentKit docs](https://docs.world.org/agents/agent-kit/integrate) for details.
 

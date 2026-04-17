@@ -57,7 +57,7 @@ Strip query parameters from the URL (e.g. `https://store.myshopify.com/products/
 If the API returns **"Agent is not registered as a verified human"**, the user needs to register their agent. Tell them to run this command **in a separate terminal** (not inside Claude — it displays a QR code that requires a visual terminal):
 
 ```sh
-npx @worldcoin/agentkit-cli register <wallet-address>
+npx --registry https://registry.npmjs.org @worldcoin/agentkit-cli register <wallet-address>
 ```
 
 They verify with World ID. After registration, retry the discount command. See [AgentKit docs](https://docs.world.org/agents/agent-kit/integrate) for details.
