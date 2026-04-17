@@ -1,0 +1,10 @@
+{
+  "name": "agentkit-shopify",
+  "description": "Unlock exclusive human-only discounts on Shopify stores using World AgentKit",
+  "version": "1.0.0",
+  "author": {
+    "name": "Worldcoin"
+  },
+  "repository": "https://github.com/worldcoin/agentkit-shopify-demo",
+  "license": "MIT"
+}

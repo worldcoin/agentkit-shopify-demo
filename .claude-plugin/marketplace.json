@@ -1,0 +1,13 @@
+{
+  "name": "worldcoin-agentkit",
+  "owner": {
+    "name": "Worldcoin"
+  },
+  "plugins": [
+    {
+      "name": "agentkit-shopify",
+      "source": "./",
+      "description": "Unlock exclusive human-only discounts on Shopify stores using World AgentKit"
+    }
+  ]
+}

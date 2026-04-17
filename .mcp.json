@@ -1,0 +1,8 @@
+{
+	"mcpServers": {
+		"human-required-store": {
+			"type": "http",
+			"url": "https://humanrequired.shop/api/mcp"
+		}
+	}
+}
